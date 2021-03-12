@@ -1,0 +1,294 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(44, 43, 43)
+    
+}
+
+body {
+    background:rgb(160, 194, 230);  
+}
+header {
+    background:rgb(243, 204, 204);
+    height: 150px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid cyan;
+}
+
+
+#logo {
+    width: 150px;
+    float: left;
+}
+
+.inner-header  {
+    width: 70%;
+    margin: 0 auto;
+    background: cyan;
+    font-size: 150%;
+    margin-top: 5px;
+   
+}
+.inner-header h1 { 
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+    color: red;
+    margin-bottom: 10px;
+    border: 1px solid rgb(130, 250, 250);
+    
+}
+.active {
+    color:rgb(163, 163, 250);
+    font-weight: bold;
+}
+
+div a {
+   
+    text-decoration: none;
+}
+
+
+nav li {
+    float: left;
+    margin-left: 25px;
+    list-style-type: none;
+
+}
+
+div nav a {
+    text-decoration: none;
+      border: 1px solid whitesmoke;
+      padding: 5px;
+}
+
+nav ul {
+    margin-bottom: 10;
+    float: right;
+}
+
+#wrapper {
+    
+    width: 700px;
+    margin: 0  auto;
+    
+    clear: both;
+
+}
+
+label {
+    display: block;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    width: 100%;
+   min-height:30px;
+    margin-bottom:10px;
+}
+
+main {
+    width: 580px;
+    float: left
+}
+aside {
+    float: right;
+    width: 340px;
+}
+footer {
+    height: 50px;
+    line-height: 50px;
+    clear: both;
+    
+}
+
+footer li {
+    float: left;
+    margin-right: 30px;
+    list-style-type: none;
+    
+}
+footer li a {
+    text-decoration: none;
+}
+.error {
+    color:red;
+    font-style: italic;
+    font-size: .9em;
+    margin: 8px;
+
+}
+
+
+.success {
+    position: relative;
+    top:10px;
+    left:10px;
+    border:1px solid red;
+    padding:10px;
+}
+.center {
+    text-align: center;
+}
+
+#pop {
+    display: none;
+    border: 1px solid whitesmoke;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    margin-top: 10px;
+    height: 169px;
+    
+}
+#image {
+   
+    border: 1px solid whitesmoke;
+    position: absolute;
+    top: 500px;
+    right: 40px;
+    margin-top: 10px;
+}
+
+.show {
+    display:block;
+}
+.hidden {
+    display: none;
+}
+
+.link {
+    color:whitesmoke;
+    font-size: larger;
+    
+}
+/* .product {
+    border: 3px solid rgb(245, 113, 113);
+} */
+
+ /* .animate {
+
+    transition: background-color 0.15s ease-out; 
+	-webkit-transition: background-color 0.15s ease-out; 
+	-moz-transition: background-color 0.15s ease-out; 
+	-o-transition: background-color 0.15s ease-out;
+	background-color: whitesmoke;
+
+	transition: color 0.25s ease-out; 
+	-webkit-transition: color 0.25s ease-out; 
+	-moz-transition: color 0.25s ease-out; 
+	-o-transition: color 0.25s ease-out;
+	color:whitesmoke; 
+	} */
+
+   
+
+    
+   legend h1 { 
+        
+        margin: 30px;
+    }
+    
+    fieldset
+    {
+        border: none;
+        background-color:rgb(163, 163, 250);
+        padding:10px;
+        
+    }
+    
+    #commentForm {
+            width: 592px;
+            height:600px;
+            background-color:rgb(163, 163, 250);          
+            margin: 0 auto 20px auto;
+            border: 1px solid rgb(251, 199, 121);
+            
+        }
+        #commentForm label {
+            margin-bottom: 20px;
+            width: 300px;
+        }
+        #commentForm label.error, #commentForm input.submit {
+            margin-left: 20px;
+            
+        
+        }
+        
+    legend {
+          color: #0099ff;
+        }
+     label.error{
+         font-size: 18pt;
+      color:rgb(251, 199, 120);
+     
+    }
+
+     .box1 {
+        
+        width: 600px;
+        height:950px;
+        background-color:rgb(163, 163, 250);
+        border: 1px solid rgb(116, 114, 114);
+
+     }
+
+     .box2 {
+        width: 500px;
+        height:550px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .box3 {
+        
+        width: 600px;
+        height:600px;
+        background-color:rgb(163, 163, 250);
+        
+        font-size: 16pt;
+        
+     }
+textarea {
+   
+    line-height: 1.5em;
+}
+    .btn {     
+        top: -30px;     
+        margin-left: 70px;
+    }
+    .button {
+        display: inline-flex;
+        height: 40px;
+        width: 150px;
+        border: 2px solid Moccasin;
+        margin: 20px 20px 20px 20px;
+        color: #7e8080;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .8em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+
+
+    div.cycle-slideshow {
+        height: 700px;
+        
+
+    }
+     .pro {
+       margin-top: 25px;
+        font-size: 25pt;
+        
+    }
+
+    .pro h1 {
+        text-shadow: -1px -1px 1px #000, 1px 1px 1px rgb(70, 69, 69);
+         color:Moccasin;
+     }
