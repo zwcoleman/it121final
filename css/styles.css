@@ -70,7 +70,7 @@ nav ul {
 }
 
 #wrapper {
-    
+    height: 750px;
     width: 700px;
     margin: 0  auto;
     
@@ -205,10 +205,11 @@ footer li a {
             height:600px;
             background-color:rgb(163, 163, 250);          
             margin: 0 auto 20px auto;
-            border: 1px solid rgb(251, 199, 121);
+            
             
         }
         #commentForm label {
+            margin-top: 20px;
             margin-bottom: 20px;
             width: 300px;
         }
@@ -290,7 +291,6 @@ textarea {
        
         transition: all .45s ease-Out;
       }
-      
       .circle {
         width: 0%;
         height: 0%;
@@ -303,11 +303,31 @@ textarea {
         top: 20px;
         left: 70px;
       }
-      
+
+      #circle  {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+        line-height: 40px;
+        border-radius: 50%;
+        background: #BFC0C0;
+        position: absolute;
+        transition: all .5s ease-Out;
+        top: 20px;
+        left: 70px;
+      }
       .button-3:hover .circle {
         width: 200%;
         height: 500%;
-        opacity: 1;
+        opacity: 0.5;
+        top: -70px;
+        left: -70px;
+      }
+      
+      .button-3:hover #circle {
+        width: 200%;
+        height: 500%;
+        opacity: 0.5;
         top: -70px;
         left: -70px;
       }
