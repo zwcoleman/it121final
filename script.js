@@ -57,14 +57,14 @@ $("a").click(function(){
 });
 });
 
-jQuery(document).ready(function ($) {
-    $(window).load(function () {
-        setTimeout(function(){
-            $('#fade').fadeOut('slow', function () {
-            });
-        },1250); // set the time here
-    });  
-});
+// jQuery(document).ready(function ($) {
+//     $(window).load(function () {
+//         setTimeout(function(){
+//             $('#fade').fadeOut('slow', function () {
+//             });
+//         },1250); // set the time here
+//     });  
+// });
 
 let $slideshow = $(".cycle-slideshow");
 
