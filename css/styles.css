@@ -92,7 +92,8 @@ input[type=password] {
 
 main {
     width: 580px;
-    float: left
+    float: left;
+    margin-bottom: 25px;
 }
 aside {
     float: right;
@@ -166,27 +167,6 @@ footer li a {
     font-size: larger;
     
 }
-/* .product {
-    border: 3px solid rgb(245, 113, 113);
-} */
-
- /* .animate {
-
-    transition: background-color 0.15s ease-out; 
-	-webkit-transition: background-color 0.15s ease-out; 
-	-moz-transition: background-color 0.15s ease-out; 
-	-o-transition: background-color 0.15s ease-out;
-	background-color: whitesmoke;
-
-	transition: color 0.25s ease-out; 
-	-webkit-transition: color 0.25s ease-out; 
-	-moz-transition: color 0.25s ease-out; 
-	-o-transition: color 0.25s ease-out;
-	color:whitesmoke; 
-	} */
-
-   
-
     
    legend h1 { 
         
@@ -243,9 +223,10 @@ footer li a {
      .box1 {
         
         width: 600px;
-        height:950px;
+        height:850px;
         background-color:rgb(163, 163, 250);
         border: 1px solid rgb(116, 114, 114);
+        
 
      }
 
@@ -299,38 +280,7 @@ textarea {
        
         transition: all .45s ease-Out;
       }
-      /* .circle {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-        line-height: 40px;
-        border-radius: 50%;
-        background: #BFC0C0;
-        position: relative;
-        transition: all .5s ease-Out;
-        top: 20px;
-        left: 70px;
-      }
-
-      .circle  {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-        line-height: 40px;
-        border-radius: 50%;
-        background: #BFC0C0;
-        position: relative;
-        transition: all .5s ease-Out;
-        ;
-      }
-      .button-3:hover .circle {
-        width: 200%;
-        height: 500%;
-        opacity: 0.5;
-        
-      } */
       
-     
       
       .button-3:hover button {
         color: #2D3142;
@@ -363,54 +313,7 @@ textarea {
        top: -100px;
       }
       
-    /*
-      
-
-.button-3 button {
-        position: relative;
-        transition: all .45s ease-Out;
-      }
-
-
-       .circle {
-        width: 0%;
-        height: 0%;
-        opacity: 0;
-        line-height: 40px;
-        border-radius: 50%;
-        background: #BFC0C0;
-        position: absolute;
-        transition: all .5s ease-Out;
-        top: -20px;
-        left: -70px;
-        overflow: hidden;
-      }
-
-       .button-3:hover .circle {
-        overflow: hidden;
-        width: 200%;
-        height: 500%;
-        opacity: 0.5;
-        top: -50px;
-        left: -40px;
-      }
-      
-
-      .button-3:hover button {
-        color: #2D3142;
-      }
-      .button-3 {
-        
-        
-         overflow: hidden;
-         height: auto;
-         width: auto;
-         
-       } */
-     
-     
-      
-
+   
     div.cycle-slideshow {
         height: 700px;
         
@@ -419,6 +322,7 @@ textarea {
      .pro {
        margin-top: 25px;
         font-size: 25pt;
+        margin-bottom: 25px;
         
     }
 
