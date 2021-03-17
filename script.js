@@ -84,5 +84,7 @@ $("#next-btn").click(function(){
     $slideshow.cycle("next");
 });
 
-
+$(function(){
+    $('#menu').slicknav();
+});
 
