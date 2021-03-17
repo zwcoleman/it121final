@@ -102,6 +102,7 @@ footer {
     height: 50px;
     line-height: 50px;
     clear: both;
+    margin-bottom: 20px;
     
 }
 
@@ -277,6 +278,13 @@ textarea {
         font-size: .8em;
         letter-spacing: 1.5px;
         cursor: pointer;
+        background-color: #ccc;
+        -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
     }
     
 
@@ -291,46 +299,38 @@ textarea {
        
         transition: all .45s ease-Out;
       }
-      .circle {
+      /* .circle {
         width: 0%;
         height: 0%;
         opacity: 0;
         line-height: 40px;
         border-radius: 50%;
         background: #BFC0C0;
-        position: absolute;
+        position: relative;
         transition: all .5s ease-Out;
         top: 20px;
         left: 70px;
       }
 
-      #circle  {
+      .circle  {
         width: 0%;
         height: 0%;
         opacity: 0;
         line-height: 40px;
         border-radius: 50%;
         background: #BFC0C0;
-        position: absolute;
+        position: relative;
         transition: all .5s ease-Out;
-        top: 20px;
-        left: 70px;
+        ;
       }
       .button-3:hover .circle {
         width: 200%;
         height: 500%;
         opacity: 0.5;
-        top: -70px;
-        left: -70px;
-      }
+        
+      } */
       
-      .button-3:hover #circle {
-        width: 200%;
-        height: 500%;
-        opacity: 0.5;
-        top: -70px;
-        left: -70px;
-      }
+     
       
       .button-3:hover button {
         color: #2D3142;
@@ -359,8 +359,8 @@ textarea {
       }
 
       .next-btn {
-       left: 200px;
-       top: -45px;
+       left: 250px;
+       top: -100px;
       }
       
     /*

@@ -4,9 +4,10 @@
 <meta charset="UTF-8">
 <title>The Bernie Sanders Meme Factory</title>
 <link href="css/styles.css" type= "text/css" rel="stylesheet">
+<link rel="stylesheet" href="slicknav.css">
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
 <script src="script.js"></script>
-
 </head>
 
 <body>
@@ -14,32 +15,39 @@
     <div class= "inner-header">
         <img id = "logo" src="images/bernie.png" alt="logo">
             <h1 class="center">The Bernie Sanders Meme Factory</h1>
-         
+     <nav>     
     <div>
-        <nav> 
+        
             <ul id="menu">
                 <li><a href="index.html" class = "active">Home</a></li>
                 <li><a id = "hiLight" href="products.html">Products</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
+    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jquery.slicknav.js"></script>
+       
+    
 </div>
 </header>    
 <div id="wrapper">
-
+<main>
     <img src="images/linear.jpg" alt="Bernie Sanders linear meme">
 
-<div id="pop">
-    <img src="images/onceagain.jpg" alt="the once again meme view products suggestion"  >
-</div>
-<div >
-  <img class = "hidden" id = "image" src="images/point.png" alt="Bernie urging you to click"  >
-</div>
 
-
-
+</main>
+<aside>
+    <div id="pop">
+        <img src="images/onceagain.jpg" alt="the once again meme view products suggestion"  >
+    </div>
+    <div >
+      <img class = "hidden" id = "image" src="images/point.png" alt="Bernie urging you to click"  >
+    </div>
+    
+</aside>
 </div><!--  end wrapper -->
 <footer>
     <ul>

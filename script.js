@@ -17,8 +17,7 @@ function showLinear() {
 }
 
 $( function() {
-    $( "#tabs" ).tabs();
-    $( "#datepicker" ).datepicker();
+    
     $("#commentForm").validate();
     
     });
@@ -49,13 +48,14 @@ $(document).ready(function () {
 
             });
         });
+        
 
-$(function(){
-$("a").click(function(){
-    $("#fade").addClass('animate');
+    $(document).ready(function(){
+        $('#menu').slicknav();
+    });
     
-});
-});
+
+
 
 // jQuery(document).ready(function ($) {
 //     $(window).load(function () {
@@ -84,7 +84,5 @@ $("#next-btn").click(function(){
     $slideshow.cycle("next");
 });
 
-$(function(){
-    $('#menu').slicknav();
-});
+
 
